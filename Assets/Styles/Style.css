@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 95vw;
+    margin: 0 auto;
+}
+
+body {
+    width: 100vw;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+header {
+    height: 69px;
+    padding: 10px;
+    display: flex;
+    color: seashell;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+nav {
+    padding: 10px;
+    display: flex;
+    color: seashell;
+    background-color: black;
+    justify-content: space-between;
+    width: 30%;
+}
+
+nav a {
+    color: seashell;
+    font-size: 22px;
+}
+
+.logo {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.logo img {
+    height: 40px;
+}
+
+main .mission {
+    width: 90vw;
+    background-image: url(../Images/img-mission-background.jpg);
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.mission .box {
+    text-align: center;
+    background-color: black;
+    color: seashell;
+    width: 100%;
+    position: relative;
+    top: 375px;
+    padding: 10px;
+}
+
+
+.month {
+    color: seashell;
+    text-align: center;
+    width: 80%;
+    margin: 5vw 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.month img {
+    width: 24vw;
+    margin: 0.5vw;
+}
+
+.gallery {
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.location {
+    background-image: url(../Images/img-locations-background.jpg);
+    height: 575px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.one {
+    display: flex;
+}
+
+.one div {
+    text-align: center;
+    background-color: black;
+    width: 25vw;
+    color: seashell;
+    height: 200px;
+    margin: 10px;
+    font-size: small;
+    padding: 20px;
+}
+
+.location h3 {
+    margin: 20px;
+}
+
+.location h1 {
+    color: seashell;
+}
+
+footer {
+    color: seashell;
+}
+
+footer .contact {
+    text-align: center;
+    margin: 10px;
+}
+
+footer h5 {
+    padding: 10px;
+}
+
+footer h3 {
+    padding: 10px;
+}
+
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(95, 95, 95, 0.226);
+}
